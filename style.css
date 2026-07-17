@@ -1,0 +1,4 @@
+body { background: #0f172a; display: flex; justify-content: center; align-items: center; height: 100vh; }
+#game-grid { display: grid; grid-template-columns: repeat(4, 80px); gap: 10px; }
+.card { width: 80px; height: 80px; background: #334155; border-radius: 12px; cursor: pointer; transition: 0.3s; }
+.card.flipped { background: #818cf8; transform: rotateY(180deg); }
